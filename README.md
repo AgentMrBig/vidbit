@@ -1,3 +1,27 @@
+
+### VIDBIT
+<summary>
+This is a tiktok clone.
+
+### Frontend
+React
+Firebase hosting
+Material UI
+Flexbox
+3rd party Ticker
+Scroll snap
+
+### Backend
+Node.js
+Express.js server
+Mongodb
+Hosting on Heroku
+Mongoose
+
+</summary>
+
+### Made using npx create-react-app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
