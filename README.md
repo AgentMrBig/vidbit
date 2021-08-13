@@ -6,7 +6,7 @@ This is a tiktok clone.
 ### Frontend
 React
 Firebase hosting
-Material UI
+styled-components
 Flexbox
 3rd party Ticker
 Scroll snap
