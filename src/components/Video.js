@@ -36,7 +36,7 @@ const VideoPlayer = styled.video`
   height: 100%;
   width: 100%;
   scroll-snap-align: start;
-
+  border: 1px red solid;
   object-fit: fill;
   width: 100%;
   height: 100%;
