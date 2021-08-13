@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 function App() {
   return (
-    <div className="app">
+    <AppDiv>
       app
       <VideoContainer>
         <Video />
@@ -14,15 +14,27 @@ function App() {
         <Video />
         <Video />
       </VideoContainer>
-    </div>
+    </AppDiv>
   );
 }
 
 export default App;
 
+const AppDiv = styled.div`
+  height: 100vh;
+  background-color: black;
+  display: grid;
+  place-items: center;
+
+  html {
+    scroll-snap-type: y mandatory;
+  }
+`;
+
 const VideoContainer = styled.div`
   position: relative;
   height: 800px;
+  border-radius: 20px;
   overflow: scroll;
   width: 80%;
   max-width: 500px;
